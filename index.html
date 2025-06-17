@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Castelo Animado - Personagens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-sophie.jpg" media="(min-width: 768px)">
+                <img class="imagem" src="src/imagens/bg-sophie.jpg" alt="Personagem Sophie">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Sophie</h2>
+                <p class="descricao">Sophie é a mais velha de três irmãs que trabalham como costureiras na chapelaria de sua família. Ela é insegura quanto sua aparência e tem dificuldade em encontrar o que quer fazer. Entretanto, uma maldição da Bruxa da Terra Abandonada a transforma em uma idosa de 90 anos, e com isso ela acaba se desenvolvendo como personagem. Ela se torna mais honesta consigo mesma e começa a viver sua vida. O crescimento dela ao longo da história é um dos destaques do filme.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-howl.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="src/imagens/bg-howl.jpg" alt="Personagem Howl" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Howl</h2>
+                <p class="descricao">Howl é um lindo rapaz com um imenso talento para a feitiçaria. Há rumores de que ele se alimenta dos corações das jovens mulheres e é temido pelo povo porque vive em um horrível castelo em movimento.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcsrt="./src/imagens/bg-markl.png" media="(min-width: 768px)" />
+                <img class="imagem" src="src/imagens/bg-markl.png" alt="Personagem Markl" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Markl</h2>
+                <p class="descricao">Markl é o aprendiz de Howl e a criança que vive no castelo com ele. Ele usa seu manto para se transformar em um homem velho de barba longa e ajuda Howl com sua magia de transformação.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-calcifer.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="src/imagens/bg-calcifer.jpg" alt="Personagem NeonPulse" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Calcifer</h2>
+                <p class="descricao">Ele é um demônio do fogo que fez um pacto com Howl e usa a lareira do castelo como sua casa. Mesmo sendo um demônio, ele é um personagem de boa índole que não vai recusar nada que a Sophie peça a ele.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-bruxa.jpg" media="(min-width: 768px)" />
+                <img class="imagem" src="src/imagens/bg-bruxa.jpg" alt="Personagem Codebreaker" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Bruxa da Terra Abandonada</h2>
+                <p class="descricao">Ela já foi uma bruxa que serviu à família real, mas foi banida para o deserto depois de ter feito um pacto com um demônio e usado sua magia. Também foi ela quem mudou a aparência de Sophie.</p>
+            </div>
+        </div>
+    </main>
+
+    <ul class="botoes">
+        <li>
+            <button class="botao sophie selecionado">
+                <img src="src/imagens/icone-sophie.png" alt="Ícone Sophie">
+            </button>
+        </li>
+        <li>
+            <button class="botao howl">
+                <img src="src/imagens/icone-howl.png" alt="Ícone Howl">
+            </button>
+        </li>
+        <li>
+            <button class="botao markl">
+                <img src="src/imagens/icone-markl.png" alt="Ícone Markl">
+            </button>
+        </li>
+        <li>
+            <button class="botao calcifer">
+                <img src="src/imagens/icone-calcifer.png" alt="Ícone Calcifer">
+            </button>
+        </li>
+        <li>
+            <button class="botao bruxa da terra abandonada">
+                <img src="src/imagens/icone-bruxa.png" alt="Ícone Bruxa da Terra Abandonada">
+            </button>
+        </li>
+
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
